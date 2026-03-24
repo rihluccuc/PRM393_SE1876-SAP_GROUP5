@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../models/User.dart';
-import '../viewmodels/AuthViewmodels.dart';
-import 'Login.dart';
+import '../viewmodels/AuthenVM/AuthViewmodels.dart';
+import 'Authen/Login.dart';
 
 class AdminPage extends ConsumerWidget {
   final User user;

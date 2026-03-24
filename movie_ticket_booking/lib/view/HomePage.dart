@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../models/User.dart';
-import '../viewmodels/AuthViewmodels.dart';
-import 'ProfilePage.dart';
+import '../viewmodels/AuthenVM/AuthViewmodels.dart';
+import 'Profile/ProfilePage.dart';
 
 class HomePage extends ConsumerWidget {
   final User user;

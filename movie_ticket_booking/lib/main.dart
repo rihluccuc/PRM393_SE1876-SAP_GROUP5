@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:movie_ticket_booking/view/Login.dart';
-import 'services/LocalStorageService.dart';
+import 'package:movie_ticket_booking/view/Authen/Login.dart';
+import 'services/UserService/LocalStorageService.dart';
 import 'view/HomePage.dart';
 import 'view/AdminPage.dart';
 
