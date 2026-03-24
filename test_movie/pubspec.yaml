@@ -1,0 +1,26 @@
+name: movie_booking
+description: CGV-style movie booking app — MVVM + SQLite + SharedPreferences
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # ── State Management ──────────────────────────────────────────────────────
+  flutter_riverpod: ^2.6.1       # Riverpod 2 — StateNotifierProvider, FutureProvider
+
+  # ── Local Storage ─────────────────────────────────────────────────────────
+  sqflite: ^2.3.3                # SQLite — lưu movies, reviews, trailers, favorites
+  path: ^1.9.0                   # join() để build đường dẫn DB
+  shared_preferences: ^2.3.2     # Key-value — user session, settings, cache nhỏ
+
+  # ── UI ────────────────────────────────────────────────────────────────────
+  cached_network_image: ^3.4.1   # Cache ảnh từ network
+  flutter_rating_bar: ^4.0.1     # Star rating widget
+
+flutter:
+  uses-material-design: true
